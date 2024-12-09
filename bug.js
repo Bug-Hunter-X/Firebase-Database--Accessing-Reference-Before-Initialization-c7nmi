@@ -1,0 +1,1 @@
+The Firebase SDK might throw an error if you try to access a database reference before it's fully initialized. This can happen if you try to read or write data in your app's initialization code before the Firebase app itself has finished initializing.
